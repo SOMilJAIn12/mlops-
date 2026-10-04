@@ -15,6 +15,8 @@ df.loc[len(df.index)] = new_row_loc
 # # Adding new row to df for V3
 new_row_loc2 = {'Name': 'GF2', 'Age': 30, 'City': 'City2'}
 df.loc[len(df.index)] = new_row_loc2
+new_row_loc2 = {'Name': 'GF3', 'Age': 30, 'City': 'City2'}
+df.loc[len(df.index)] = new_row_loc2
 
 data_dir = os.path.join("DVC",'data')
 os.makedirs(data_dir, exist_ok=True)
